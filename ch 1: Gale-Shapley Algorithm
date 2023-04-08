@@ -1,0 +1,20 @@
+Starting with n men and n women:
+1. Every night, n men visit their favorite woman's balcony and serenades.
+2. If the woman has not been engaged yet, she gets engaged with her first favorite.
+3. The rejected men crosses their top pick off their list and visits their next favorite the next evening
+4. If she likes the suitor better, she breaks the engagement and sets her former fiance free
+5. Men continues to visit women according to their descending order of preference until everybody is matched
+
+______________________________________________________________________________________________________________
+Characteristics:
+- Men are freed and engaged; women are always engaged once a man visits
+- Men goes down the list of preferences; women goes up the list of preferences
+- When there is at least one free man, then he did not propose to all women
+- There can be at most n^2 total proposals since a man does not propose twice to the same woman
+- The algorithm is men-optimal and women-pessimal; that is, the result matches men with their best valid spouse and women with worst valid spouse
+
+______________________________________________________________________________________________________________
+Problem-Solving Strategy:
+- Identify core assumptions of Gale-Shapley Algorithm
+- Prove ~: Try to use proof of contradiction
+- Examine the implications of assumption and try to find the logical flaw that follows it
