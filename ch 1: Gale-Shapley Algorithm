@@ -11,7 +11,9 @@ Characteristics:
 - Men goes down the list of preferences; women goes up the list of preferences
 - When there is at least one free man, then he did not propose to all women
 - There can be at most n^2 total proposals since a man does not propose twice to the same woman
-- The algorithm is men-optimal and women-pessimal; that is, the result matches men with their best valid spouse and women with worst valid spouse
+- The algorithm is men-optimal and women-pessimal (proposer-optimal); that is, the result matches men with their best valid spouse and women with worst valid spouse
+- The algorithm is deterministic; no matter the order of execution, the result will always be the same
+- There will be at most only 2 valid partners 
 
 ______________________________________________________________________________________________________________
 Problem-Solving Strategy:
