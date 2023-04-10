@@ -1,6 +1,6 @@
 Big-O: upper bound of the worst-case runtime (denoted by T(n))
 - look ony at the leading term stripping any coefficients
-- Definition: T(n) = O(f(n)) if \exists finite n_0 >= 0, c > 0 : \forall n > n_0 c*f(n) > T(n) 
+- Definition: $T(n) = O(f(n)) if \exists finite n_0 >= 0, c > 0 : \forall n > n_0 c*f(n) > T(n)$
 - worst-case runtime is bound by a constant multiple of f(n) above certain n_0
 
 Big-Omega: lower bonud of the worst-case runtime
