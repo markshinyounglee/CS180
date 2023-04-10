@@ -1,0 +1,18 @@
+Big-O: upper bound of the worst-case runtime (denoted by T(n))
+- look ony at the leading term stripping any coefficients
+- Definition: T(n) = O(f(n)) if \exists finite n_0 >= 0, c > 0 : \forall n > n_0 c*f(n) > T(n) 
+- worst-case runtime is bound by a constant multiple of f(n) above certain n_0
+
+Big-Omega: lower bonud of the worst-case runtime
+- look only at the leading term stripping any coefficient
+- 
+
+Theta: average-case performance of worst-case runtime
+
+
+Average-case analysis: taking 
+
+_________________________________________
+"An algorithm is efficient if it achieves qualitatively better worst-case performance, at an analytical level, than brute-force search" (Kleinberg, J.)
+
+
